@@ -1,0 +1,48 @@
+*.env
+.env
+.env.*
+
+/node_modules
+/package.json
+
+# Ignore built files
+build
+dist
+out
+
+# Ignore coverage reports
+coverage
+
+# Ignore logs
+logs
+
+# Ignore Node.js modules
+node_modules
+
+# Ignore editor/IDE configuration files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Git related files
+.git
+.gitignore
+
+# Ignore configuration files
+*.config.js
+.config
+
+# Ignore temporary files
+*.swp
+*.swo
+*.swn
+
+# Ignore test environment files
+.env.test
+.env.local.test
+
+# Ignore package-lock.json and yarn.lock
+package-lock.json
+yarn.lock
+/.vscode
